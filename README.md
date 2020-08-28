@@ -12,7 +12,7 @@ This is a bosh release providing the following tools from
 
   *source: https://github.com/percona/grafana-dashboards*
 
-* mongodb_exporter (**v0.7.0**) :
+* mongodb_exporter (**v0.11.1**) :
 
   A MongoDB exporter for [prometheus](https://prometheus.io/)
 
@@ -33,9 +33,9 @@ The release is actually focused on [mongodb](https://www.mongodb.com), but is st
 * get and upload the last release from github
 
   ```shell
-  wget https://github.com/jraverdy-orange/prometheus-addons-boshrelease/releases/download/v2.1.1/prometheus-addons-v2.1.1.tgz
+  wget https://github.com/orange-cloudfoundry/orange-prometheus-addons-boshrelease/releases/download/v4.0.0/orange-prometheus-addons-v4.0.0.tgz
   
-  bosh upload-release prometheus-addons-v2.1.1.tgz
+  bosh upload-release orange-prometheus-addons-v4.0.0.tgz
   ```
 
   
@@ -43,7 +43,7 @@ The release is actually focused on [mongodb](https://www.mongodb.com), but is st
 * get the sources from github to recover needed opsfiles, which are necessary on both prometheus and mongodb deployments
 
   ```shell
-  git clone https://github.com/jraverdy-orange/prometheus-addons-boshrelease.git
+  git clone https://github.com/orange-cloudfoundry/orange-prometheus-addons-boshrelease.git
   ```
 
   
@@ -57,7 +57,7 @@ just add the following to the prometheus-boshrelease deployment command:
 ```shell
 bosh deploy ... 
 ...
--o prometheus-addons-boshrelease/opsfiles/use-mongodb-dashboards-alerts.yml 
+-o orange-prometheus-addons-boshrelease/opsfiles/use-mongodb-dashboards-alerts.yml 
 ```
 
 

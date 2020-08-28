@@ -1,5 +1,5 @@
 ---
-final_name: prometheus-addons
+final_name: orange-prometheus-addons
 blobstore:
   provider: gcs
   options:

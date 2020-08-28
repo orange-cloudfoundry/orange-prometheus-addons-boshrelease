@@ -1,4 +1,4 @@
-# prometheus-addons-boshrelease
+# orange-prometheus-addons-boshrelease
 
 
 

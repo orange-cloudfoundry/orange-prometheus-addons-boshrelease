@@ -1,7 +1,7 @@
 ---
 final_name: orange-prometheus-addons
 blobstore:
-  provider: gcs
+  provider: s3
   options:
-    bucket_name: jraverdy-prometheus-addons-boshrelease
+    bucket_name: orange-prometheus-addons-boshrelease
 

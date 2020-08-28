@@ -1,0 +1,83 @@
+name: orange-prometheus-addons
+version: "1"
+commit_hash: 7f7304e
+uncommitted_changes: false
+jobs:
+- name: mongodb_alerts
+  version: 64da936b552baec1c0d694708cbe82af1aed15ce7a60ac06f1c8796cd00460c4
+  fingerprint: 64da936b552baec1c0d694708cbe82af1aed15ce7a60ac06f1c8796cd00460c4
+  sha1: sha256:52df4f521aa1c55c0e2a2f4dfc0e667d10fafb4929d39b230d8348ff635a3964
+  packages: []
+- name: mongodb_dashboards
+  version: 3aa59d5fde7d060582b4dccc04e0a12653d705ca5cd8472021b3b75516731eca
+  fingerprint: 3aa59d5fde7d060582b4dccc04e0a12653d705ca5cd8472021b3b75516731eca
+  sha1: sha256:103736e3e09cb2be0c4faec5bd87308702c6112580f657f2a8d0b04e69b9541f
+  packages: []
+- name: mongodb_exporter
+  version: e9eb94d5166f9076c59878ce8401a5d1a72f5791e21f54d67d74af5861a647db
+  fingerprint: e9eb94d5166f9076c59878ce8401a5d1a72f5791e21f54d67d74af5861a647db
+  sha1: sha256:353a11092bf12d39ee6f5dfb359539dc049550d3e11794edff428ce7b4abd3b8
+  packages:
+  - mongodb_exporter
+- name: mysql_dashboards
+  version: 639a04ce7e53e6472fa0b9e37913a19a619ff5cb9d6153e1b3655dbd1526b091
+  fingerprint: 639a04ce7e53e6472fa0b9e37913a19a619ff5cb9d6153e1b3655dbd1526b091
+  sha1: sha256:845d505fb4aab4c076058ee013c5cfd889622f97ebf2eb05f7a27bdb7b9e62a3
+  packages: []
+- name: rabbitmq_dashboards
+  version: cb45b59e4d403bd6bdb27d8dec1ccb02b8e25a93eae50baec779e21d4dd0b063
+  fingerprint: cb45b59e4d403bd6bdb27d8dec1ccb02b8e25a93eae50baec779e21d4dd0b063
+  sha1: sha256:78fd3066312ccab175a50a29789af65c007a2bf515666685416e2aaf883433a0
+  packages: []
+- name: redis_alerts
+  version: 24597e2579e0eb79bde26b76ab933fef8dd468715a31f3e9892813680f13ca7e
+  fingerprint: 24597e2579e0eb79bde26b76ab933fef8dd468715a31f3e9892813680f13ca7e
+  sha1: sha256:a12e9a3b6a31a8cfafeddede5c5e04b9d79ea69cca8ca94334dc00f6d3c0048a
+  packages: []
+- name: redis_dashboards
+  version: 165f790643e4f991676343f8caad608043749ed0ed0ea966b53ce968bd679e80
+  fingerprint: 165f790643e4f991676343f8caad608043749ed0ed0ea966b53ce968bd679e80
+  sha1: sha256:02dcb817ad87fab053c4b14b5d0fcaa2538b7c68574e9032bc5e4eb7055f9ef4
+  packages: []
+- name: redis_exporter
+  version: b2d4404e5b0abaf23ad26b04432bc7d8e27276ef5e080580346e6e4a0cc8ede0
+  fingerprint: b2d4404e5b0abaf23ad26b04432bc7d8e27276ef5e080580346e6e4a0cc8ede0
+  sha1: sha256:67db7708e7faa49bb18abdbb0d5b9a763de4db54398a2fd8f8da82d2b3363fb1
+  packages:
+  - redis_exporter
+- name: redis_sentinel_alerts
+  version: b7455ab8cbc86ac01569f87ea87bed6b347fe471874f5a23308fc2f284a37abb
+  fingerprint: b7455ab8cbc86ac01569f87ea87bed6b347fe471874f5a23308fc2f284a37abb
+  sha1: sha256:50e91788f8317ec203b1e44f87e89f6d11e9ce7b4b64706b1297811c85f96728
+  packages: []
+- name: redis_sentinel_dashboards
+  version: c704388e90dc1609fd94d5637fef10647b666539515ff825d1733f15097b2be3
+  fingerprint: c704388e90dc1609fd94d5637fef10647b666539515ff825d1733f15097b2be3
+  sha1: sha256:3486eea388e110723291e5bfc2e0b162c66b472e294e39632eaa2e2900907257
+  packages: []
+- name: redis_sentinel_exporter
+  version: 17516b2288ba859436dd1dc573fa4f95f3ff6ce81cf5c8ea047d97a0ed97952d
+  fingerprint: 17516b2288ba859436dd1dc573fa4f95f3ff6ce81cf5c8ea047d97a0ed97952d
+  sha1: sha256:4d8a104c198a1a26adce6473beefa9589ea3ecbd33a7e8f539c26f7ce028a452
+  packages:
+  - redis_sentinel_exporter
+packages:
+- name: mongodb_exporter
+  version: 4d4fd1b6afd28ae29eefb5d88e697029ed7b6d11d0ecf6517523e4916559e490
+  fingerprint: 4d4fd1b6afd28ae29eefb5d88e697029ed7b6d11d0ecf6517523e4916559e490
+  sha1: sha256:34e412d536f7fd869cc4a5f6331cf1205879d7c651439629e6f00889cfcfdabe
+  dependencies: []
+- name: redis_exporter
+  version: 9df540de832702e570b5c4045b9faff998c80bc7755c777756eefff60be34dc8
+  fingerprint: 9df540de832702e570b5c4045b9faff998c80bc7755c777756eefff60be34dc8
+  sha1: sha256:ce147c8ee9cb2ebf2d4f69a2324d3618bed053e61b89667aa032fdd9d3be621f
+  dependencies: []
+- name: redis_sentinel_exporter
+  version: ca6f9768e5a332c580b7babf75cfd39d3ac749d6ef88b3b830325015db479b20
+  fingerprint: ca6f9768e5a332c580b7babf75cfd39d3ac749d6ef88b3b830325015db479b20
+  sha1: sha256:259033f483e8d6e8adf4e07366af0ca3d01022bd052d8aebcadd7318243e4f0d
+  dependencies: []
+license:
+  version: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  fingerprint: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  sha1: sha256:6fba22987ed726a206ec35e92b2683da2a92681dd131e4749a14bf8f953f526e

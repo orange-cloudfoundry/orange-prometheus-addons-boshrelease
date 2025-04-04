@@ -3,6 +3,6 @@ final_name: orange-prometheus-addons
 blobstore:
   provider: s3
   options:
-    bucket_name: orange-prometheus-addons-boshrelease
+    bucket_name: s3selfcare-prometheus-addons-boshrelease
     region: eu
     host: storage.googleapis.com
